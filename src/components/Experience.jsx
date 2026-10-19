@@ -63,9 +63,9 @@ export default function Experience() {
   return (
     <Section
       id="experience"
-      eyebrow="03 · Experience"
-      title="From the field to the codebase."
-      intro="Ten years that moved from pharmaceutical sales to performance marketing to building and shipping my own software."
+      eyebrow="// 04 · Career timeline"
+      title={<>From the field to the <span className="gradient-text">codebase</span></>}
+      intro="Ten years from pharmaceutical sales to performance marketing and corporate training, to leading a product studio and academy."
     >
       <div ref={ref} className="relative">
         <div aria-hidden="true" className="no-print absolute left-[18px] top-0 bottom-0 w-[2px] bg-white/5 lg:left-1/2 lg:-translate-x-1/2" />

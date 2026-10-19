@@ -4,17 +4,18 @@
 
 # Nazmul Hussain
 
-**Full-Stack Developer · AI Automation Engineer · Data Analyst · Founder of [Omebly](https://omebly.com/)**
+**Managing Director & Technical Head, [Omebly](https://omebly.com/) · Full-Stack & Flutter Architect · AI Automation · Data Analytics**
 
-Dubai, UAE · India · Open to full-time, contract and remote roles
+Kolkata, India · Downtown Dubai, UAE · Clients across India, UAE, Gulf, UK and USA
 
-[![Live Resume](https://img.shields.io/badge/Live%20Resume-hussain5049.github.io-2ef2b5?style=for-the-badge&logo=githubpages&logoColor=black)](https://hussain5049.github.io/practice-personal-resume/)
+[![Live Resume](https://img.shields.io/badge/Live%20Resume-hussain5049.github.io-00f3ff?style=for-the-badge&logo=githubpages&logoColor=black)](https://hussain5049.github.io/practice-personal-resume/)
 [![PDF](https://img.shields.io/badge/Resume-PDF-ef4444?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./public/Nazmul_Hussain_Resume.pdf)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nazmul%20Hussain-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nazmul-hussain-16a55b243/)
 [![GitHub](https://img.shields.io/badge/GitHub-hussain5049-181717?style=flat-square&logo=github)](https://github.com/hussain5049)
-[![Omebly](https://img.shields.io/badge/Omebly-omebly.com-2ef2b5?style=flat-square&logo=googlechrome&logoColor=black)](https://omebly.com/)
-[![Email](https://img.shields.io/badge/Email-info%40makemybusinesslive.com-0e7490?style=flat-square&logo=gmail&logoColor=white)](mailto:info@makemybusinesslive.com)
+[![Omebly](https://img.shields.io/badge/Omebly-omebly.com-bc13fe?style=flat-square&logo=googlechrome&logoColor=white)](https://omebly.com/)
+[![Email](https://img.shields.io/badge/Email-info%40omebly.com-0e7490?style=flat-square&logo=gmail&logoColor=white)](mailto:info@omebly.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B91%2070444%2033991-25d366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/917044433991)
 
 </div>
 
@@ -22,58 +23,58 @@ Dubai, UAE · India · Open to full-time, contract and remote roles
 
 ## About
 
-I build products end to end: fast web and desktop apps, AI-powered automations that remove busywork, and data pipelines and dashboards that tell teams what to do next.
+Managing Director & Technical Head at **Omebly** and founder of **KiniCode** & **Zenkart**. With 10+ years of hands-on product engineering I personally lead every web, SaaS, Flutter mobile app, 3D game and AI architecture from first consultation to launch, backed by lifetime bug-fix support.
 
-I started in pharmaceutical sales, moved into performance marketing and training in the UAE, and today I design, build and ship software under my own brand, **Omebly**. That path means I write code with a commercial brain: I know what a funnel, a budget and a deadline look like from the inside.
+I started in pharmaceutical sales, moved into performance marketing and corporate training in the UAE, and today co-lead Omebly, a product studio and live academy, with owner Tania Firdus. I still write the code.
 
-## Featured: Omebly Downloader
+## The Omebly ecosystem
 
-<img src="./public/omebly-icon.png" alt="Omebly Downloader" width="56" align="left" style="margin-right:12px">
+| Product | What it is |
+| --- | --- |
+| **Omebly Voice-Party App** | Flagship real-time voice and video social app: voice rooms, live PK battles, games, gifts and leaderboards in 13 languages for India and the Gulf. Flutter. |
+| **Omebly In-Browser Tools** | 60+ privacy-first, zero-upload tools: 54 PDF & AI tools (Chat with PDF, AI summariser, OCR), 4 image tools (4K upscaler, background remover) and video timeline tools. |
+| **Omebly Training Academy** | 16 live mentor-led tracks with weekly 1-on-1 reviews: Data Analysis, Power BI & DAX, Python, Full-Stack Web, Flutter, Unity, UI/UX in Figma, Blender animation. |
+| **[Omebly Downloader](https://github.com/hussain5049/omebly-downloader)** | Free, open-source Windows app + MV3 browser extension (Rust + Tauri 2, JavaScript). Signed releases, GitHub Actions CI, Playwright tests, no tracking. GPL-3.0. |
 
-**See every video, audio file, image and file on a page, tick what you want, and download it at full speed.**
-Free and open source (GPL-3.0-or-later). [Product page](https://omebly.com/tools/downloader/) · [Source](https://github.com/hussain5049/omebly-downloader)
+## 8 service pillars
 
-<br clear="left">
-
-- **Native desktop app** in Rust + Tauri 2 with a signed NSIS installer and signed one-click updates.
-- **Manifest V3 browser extension** for Chrome, Edge and Brave that scans frames, players, HLS / DASH streams and playlists.
-- **Release engineering:** GitHub Actions builds, hash-pinned yt-dlp and FFmpeg, SignPath code signing, Playwright end-to-end tests.
-- **Privacy by design:** no ads, tracking or analytics. DRM-protected media is detected and never downloaded.
+Web & SaaS Development · App Development (Flutter, iOS, Android) · UI/UX Product Design · Animation Design (2D/3D CGI) · Video Editing · Digital Marketing · Game Development (Unity, Unreal Engine 5) · Brand Building
 
 ## Skills
 
 | Track | Core |
 | --- | --- |
-| **Web & App** | JavaScript / TypeScript, React, Vite, Tailwind, Node.js, Express, Tauri + Rust, PHP, SQL / MySQL, REST APIs, MV3 browser extensions, Git, GitHub Actions, Playwright |
-| **AI & Automation** | LLM APIs (OpenAI, Claude), prompt and workflow design, n8n / Make / Zapier, chatbots and assistants, API integration and webhooks, Python scripting, CRM and email automation, scraping |
-| **Data & Analytics** | SQL, advanced Excel / Google Sheets, GA4 and Tag Manager, Looker Studio, Power BI, Python (pandas), A/B testing, KPI / funnel / cohort analysis |
-| **Growth & Design** | SEO, Google / Meta / LinkedIn / TikTok Ads, UI / UX (Figma, Adobe XD), Adobe Creative Suite, content and copywriting, training |
+| **Full-Stack Web** | JavaScript / TypeScript, React, Node.js, Express, MongoDB, SQL, PHP, WordPress / Elementor Pro, HTML5 / CSS3 / Tailwind, REST APIs, Rust + Tauri, Git, GitHub Actions |
+| **Mobile, AI & Automation** | Flutter & Dart, real-time voice / video, LLM APIs and AI agents (OpenAI, Claude), AI document tools (PDF chat, OCR, summarisation), n8n / Make / Zapier, Python, end-to-end encryption, CRM and email automation |
+| **Data & Analytics** | Power BI & DAX, SQL, advanced Excel / Google Sheets, Python (pandas), GA4 and Tag Manager, KPI / funnel / cohort analysis, A/B testing and CRO |
+| **Design, 3D & Games** | Figma design systems, Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, DaVinci Resolve, Blender, 3ds Max, Unreal Engine 5, Unity, AutoCAD, Revit |
 
 ## Experience
 
-| Period | Role | Company | Location |
+| Period | Role | Organisation | Location |
 | --- | --- | --- | --- |
-| 2025 – Present | **Founder & Lead Developer** | [Omebly](https://omebly.com/) | Dubai · Remote |
+| Present | **Managing Director & Technical Head** | [Omebly](https://omebly.com/) | Kolkata · Downtown Dubai |
+| Ongoing | Founder | KiniCode · Zenkart | India · UAE |
 | 2024 – 2025 | Digital Marketing Manager | Essenzi Perfumes | Dubai, UAE |
-| 2023 – 2024 | Digital Marketing Trainer | Spoton Training Institute | Dubai, UAE |
-| 2022 – 2023 | Digital Marketing Executive | Etisalat Telecom (HACB) | Dubai, UAE |
-| 2021 – 2022 | Digital Marketing Executive | WGCB | Dubai, UAE |
-| 2017 – 2019 | Senior Marketing Executive | Indiabulls Pharma | India |
-| 2014 – 2017 | Junior Marketing Executive | Shreya Lifescience · Raptakos, Brett & Co. · Ajanta Pharma | India |
+| 2023 – 2024 | Corporate Trainer (Power BI, Python, Generative AI, Design) | Edoxi · SpotOn Training Institute | Dubai, UAE |
+| 2022 – 2023 | Digital Marketing Executive | Etisalat Business (HACB) | Dubai, UAE |
+| 2021 – 2023 | Web & Digital Systems | Dubai Shipping LLC · Emirates Packaging Group LLC · Golden Colour General Trading LLC | Dubai, UAE |
+| 2014 – 2019 | Marketing Executive → Senior Marketing Executive | Shreya Lifescience · Raptakos, Brett & Co. · Ajanta Pharma · Indiabulls Pharma | India |
 
 Full descriptions are on the [live resume](https://hussain5049.github.io/practice-personal-resume/) and in the [PDF](./public/Nazmul_Hussain_Resume.pdf).
 
-## Education
+## Education & teaching
 
 - **Bachelor of Computer Applications (BCA)**, 2014
-- Ongoing self-directed work in Rust / Tauri, modern React, release engineering, LLM tooling and analytics.
+- **Lead Mentor, Omebly Academy**, 16 live tracks
+- **Author**, *From Zero to Digital Hero*
 
 ## Contact
 
 | | |
 | --- | --- |
-| Email | [info@makemybusinesslive.com](mailto:info@makemybusinesslive.com) |
-| Phone / WhatsApp | [+91 84150 44306](tel:+918415044306) |
+| Email | [info@omebly.com](mailto:info@omebly.com) |
+| WhatsApp | [+91 70444 33991](https://wa.me/917044433991) |
 | LinkedIn | [linkedin.com/in/nazmul-hussain-16a55b243](https://www.linkedin.com/in/nazmul-hussain-16a55b243/) |
 | GitHub | [github.com/hussain5049](https://github.com/hussain5049) |
 | Website | [omebly.com](https://omebly.com/) |
@@ -83,7 +84,7 @@ Full descriptions are on the [live resume](https://hussain5049.github.io/practic
 <details>
 <summary><strong>About this repository (how the site is built)</strong></summary>
 
-An interactive resume built with **React 19, Vite, Tailwind CSS v4 and Framer Motion**, deployed to **GitHub Pages** by GitHub Actions.
+An interactive resume built with **React 19, Vite, Tailwind CSS v4 and Framer Motion**: canvas particle network, scanline, animated grid, typewriter, holographic ID card, scroll-linked timeline, 3D tilt cards and a dedicated print layout. Deployed to **GitHub Pages** by GitHub Actions.
 
 ```
 .
@@ -94,9 +95,9 @@ An interactive resume built with **React 19, Vite, Tailwind CSS v4 and Framer Mo
 │   └── Nazmul_Hussain_Resume.pdf
 ├── src/
 │   ├── data/resume.js         # ALL resume content lives here
-│   ├── components/            # Hero, About, Skills, Experience, Projects, Education, Contact, PrintResume…
+│   ├── components/            # Hero, Ecosystem, Skills, Experience, Projects, Contact, PrintResume, Effects…
 │   ├── hooks/useReveal.js     # scroll-reveal presets
-│   └── index.css              # theme tokens + print rules
+│   └── index.css              # theme tokens, cyber effects, print rules
 └── .github/workflows/deploy.yml
 ```
 

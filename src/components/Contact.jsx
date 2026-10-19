@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Check, Copy, Download, Globe, Mail, MapPin, Phone } from "lucide-react";
+import { Check, Copy, Download, Globe, Mail, MapPin, MessageCircle } from "lucide-react";
 import { Github, Linkedin } from "./Brand.jsx";
 import { profile } from "../data/resume.js";
 import { Magnetic, Section } from "./ui.jsx";
@@ -22,34 +22,46 @@ export default function Contact() {
 
   const rows = [
     { icon: Mail, label: "Email", value: profile.email, href: `mailto:${profile.email}` },
-    { icon: Phone, label: "Phone / WhatsApp", value: profile.phone, href: profile.phoneHref },
+    { icon: MessageCircle, label: "WhatsApp", value: profile.whatsapp, href: profile.whatsappHref },
     { icon: Linkedin, label: "LinkedIn", value: profile.linkedinLabel, href: profile.linkedin },
     { icon: Github, label: "GitHub", value: profile.githubLabel, href: profile.github },
     { icon: Globe, label: "Website", value: profile.websiteLabel, href: profile.website },
-    { icon: MapPin, label: "Location", value: profile.location },
+    { icon: MapPin, label: "Hubs", value: profile.location },
   ];
 
   return (
     <Section
       id="contact"
-      eyebrow="06 · Contact"
-      title="Let's build something."
-      intro="Hiring for AI automation, web / app development or data analysis? I usually reply within a day."
+      eyebrow="// 06 · Initiate transmission · Kolkata & Downtown Dubai"
+      title={
+        <>
+          Let's build <span className="gradient-text">what's next</span>
+        </>
+      }
+      intro="Hiring for AI automation, full-stack or data roles? Or need a website, Flutter app, SaaS product, 3D game or live training? I reply within a day, and Omebly quotes fixed prices within 48 hours."
     >
-      <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-ink-2 print-flat">
+      <div className="relative overflow-hidden rounded-[1.6rem] border border-mint/40 bg-ink-2">
         <div
           aria-hidden="true"
-          className="no-print pointer-events-none absolute inset-0 bg-[radial-gradient(700px_300px_at_0%_0%,rgba(167,139,250,0.14),transparent_60%),radial-gradient(700px_300px_at_100%_100%,rgba(46,242,181,0.12),transparent_60%)]"
+          className="pointer-events-none absolute inset-0 bg-[radial-gradient(700px_300px_at_0%_0%,rgba(188,19,254,0.16),transparent_60%),radial-gradient(700px_300px_at_100%_100%,rgba(0,243,255,0.14),transparent_60%)]"
         />
         <motion.div {...container} className="relative grid gap-10 p-7 md:p-12 lg:grid-cols-[1fr_1.1fr]">
           <div>
-            <motion.p {...item} className="font-display text-3xl font-bold text-white md:text-4xl">
+            <motion.p {...item} className="break-all font-display text-3xl font-bold text-white md:text-4xl">
               {profile.email}
             </motion.p>
-            <motion.div {...item} className="no-print mt-6 flex flex-wrap gap-3">
+            <motion.p {...item} className="mt-2 font-mono text-sm text-mist">
+              {profile.availability}
+            </motion.p>
+            <motion.div {...item} className="mt-6 flex flex-wrap gap-3">
               <Magnetic>
                 <a href={`mailto:${profile.email}?subject=Opportunity%20for%20${encodeURIComponent(profile.name)}`} className="btn btn-primary">
                   <Mail size={16} /> Email me
+                </a>
+              </Magnetic>
+              <Magnetic>
+                <a href={profile.whatsappHref} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">
+                  <MessageCircle size={16} /> WhatsApp
                 </a>
               </Magnetic>
               <Magnetic>
@@ -68,7 +80,7 @@ export default function Contact() {
 
           <motion.ul {...container} className="grid gap-3 sm:grid-cols-2">
             {rows.map(({ icon: Icon, label, value, href }) => (
-              <motion.li key={label} {...item} className="glass print-flat rounded-2xl p-4">
+              <motion.li key={label} {...item} className="glass rounded-2xl p-4">
                 <p className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.2em] text-mist">
                   <Icon size={12} className="text-mint" /> {label}
                 </p>

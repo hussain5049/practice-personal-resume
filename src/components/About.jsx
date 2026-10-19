@@ -9,7 +9,7 @@ const icons = [Code2, Bot, BarChart3, Rocket];
 export default function About() {
   const { container, item } = useReveal({ stagger: 0.1 });
   return (
-    <Section id="about" eyebrow="01 · About" title="A builder with a business brain.">
+    <Section id="about" eyebrow="// 00 · About" title={<>A founder who <span className="gradient-text">still ships code</span></>}>
       <div className="grid gap-12 lg:grid-cols-[1.1fr_1fr]">
         <motion.div {...container} className="space-y-5 text-lg leading-relaxed text-mist">
           <motion.p {...item} className="text-xl text-fog">

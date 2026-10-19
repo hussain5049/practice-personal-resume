@@ -7,7 +7,7 @@ import { useReveal } from "../hooks/useReveal.js";
 export default function Education() {
   const { container, item } = useReveal({ stagger: 0.12 });
   return (
-    <Section id="education" eyebrow="05 · Education" title="Foundations and continuous learning.">
+    <Section id="education" eyebrow="// 05 · Education & teaching" title={<>Learning, <span className="gradient-text">teaching, writing</span></>}>
       <motion.ul {...container} className="grid gap-5 md:grid-cols-3">
         {education.map((e) => (
           <motion.li key={e.title} {...item} className="glass card-hover print-flat print-avoid rounded-3xl p-6">

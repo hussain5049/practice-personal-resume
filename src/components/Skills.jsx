@@ -33,9 +33,9 @@ export default function Skills() {
   return (
     <Section
       id="skills"
-      eyebrow="02 · Skills"
-      title="One person, three job descriptions."
-      intro="I am targeting AI automation, web / app development and data analyst roles. Pick a track to see how I measure up."
+      eyebrow="// 03 · Technical matrix"
+      title={<>Full-stack, data &amp; <span className="gradient-text">3D arsenal</span></>}
+      intro="Pick a track. Levels reflect what I ship in production today, not what I once read about."
     >
       {/* Interactive tabs (screen) */}
       <div className="no-print">

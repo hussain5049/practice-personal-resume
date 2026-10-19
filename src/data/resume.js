@@ -2,62 +2,101 @@
 //  RESUME CONTENT — edit this file only; every section of the site reads from it.
 // ============================================================================
 
+const BASE = import.meta.env.BASE_URL;
+
 export const profile = {
   name: "Nazmul Hussain",
   firstName: "Nazmul",
+  title: "Managing Director & Technical Head, Omebly",
   roles: [
-    "Full-Stack Developer",
-    "AI Automation Engineer",
-    "Data Analyst",
-    "Founder of Omebly",
+    "Managing Director & Technical Head @ Omebly",
+    "Full-Stack MERN, SaaS & Flutter App Architect",
+    "AI Automation & Data Analytics Engineer",
+    "Creator of the Omebly App & 60+ Browser Tools",
+    "Lead Mentor at Omebly Academy (16 Live Tracks)",
+    "UI/UX Designer, 3D Animator & Unreal Creator",
   ],
+  headline: ["Building digital", "experiences that", "scale globally"],
   tagline:
-    "I build products end to end: fast web and desktop apps, AI-powered automations that remove busywork, and data pipelines and dashboards that tell teams what to do next.",
-  location: "Dubai, UAE · India",
-  availability: "Open to full-time, contract and remote roles",
-  email: "info@makemybusinesslive.com", // TODO: switch to your Omebly / preferred email
-  phone: "+91 84150 44306",
-  phoneHref: "tel:+918415044306",
+    "Managing Director & Technical Head at Omebly and founder of KiniCode & Zenkart. With 10+ years of hands-on product engineering I personally lead every web, SaaS, Flutter mobile app, 3D game and AI architecture from first consultation to launch, backed by lifetime bug-fix support.",
+  location: "Kolkata, India · Downtown Dubai, UAE",
+  hubs: "Kolkata (IN) & Downtown Dubai (UAE)",
+  regions: "India · UAE · Gulf · UK · USA",
+  availability: "Open to AI automation, full-stack and data roles · consulting via Omebly",
+  email: "info@omebly.com",
+  whatsapp: "+91 70444 33991",
+  whatsappHref: "https://wa.me/917044433991",
   website: "https://omebly.com/",
   websiteLabel: "omebly.com",
   github: "https://github.com/hussain5049",
   githubLabel: "github.com/hussain5049",
   linkedin: "https://www.linkedin.com/in/nazmul-hussain-16a55b243/",
   linkedinLabel: "linkedin.com/in/nazmul-hussain-16a55b243",
-  photo: `${import.meta.env.BASE_URL}profile.png`,
-  resumePdf: `${import.meta.env.BASE_URL}Nazmul_Hussain_Resume.pdf`,
+  photo: `${BASE}profile.png`,
+  omeblyIcon: `${BASE}omebly-icon.png`,
+  resumePdf: `${BASE}Nazmul_Hussain_Resume.pdf`,
 };
 
 export const stats = [
-  { value: 10, suffix: "+", label: "years of professional experience" },
-  { value: 2, suffix: "", label: "countries worked in: India & UAE" },
-  { value: 1, suffix: "", label: "shipped product: Omebly Downloader" },
-  { value: 3, suffix: "", label: "disciplines: code, data, growth" },
+  { value: 10, suffix: "+", label: "years founder & product experience" },
+  { value: 8, suffix: "", label: "studio service pillars" },
+  { value: 16, suffix: "", label: "live academy tracks mentored" },
+  { value: 60, suffix: "+", label: "free in-browser tools shipped" },
+];
+
+// Rows shown on the holographic ID card in the hero.
+export const hud = {
+  rows: [
+    { k: "EXECUTIVE", v: "Nazmul Hussain" },
+    { k: "DESIGNATION", v: "MD & Technical Head @ Omebly", accent: "cyan" },
+    { k: "LEADERSHIP", v: "Nazmul Hussain & Tania Firdus", accent: "purple" },
+    { k: "GLOBAL HUBS", v: "Kolkata (IN) & Downtown Dubai (UAE)", accent: "green" },
+    { k: "CLIENT REGIONS", v: "India • UAE • Gulf • UK • USA" },
+    { k: "FLAGSHIP APP", v: "Omebly Voice-Party App (13 langs)", accent: "cyan" },
+  ],
+  bars: [
+    { label: "Full-stack MERN, SaaS & Cloud", level: 98 },
+    { label: "Flutter mobile & real-time voice / AI", level: 96 },
+    { label: "UI/UX systems, 3D & Unreal Engine", level: 94 },
+  ],
+};
+
+export const ticker = [
+  "Web & SaaS development",
+  "Flutter iOS & Android apps",
+  "AI automation & LLM agents",
+  "Data analytics & Power BI",
+  "UI/UX design systems",
+  "2D & 3D animation",
+  "Unity & Unreal game dev",
+  "Omebly Academy · 16 live tracks",
+  "60+ free in-browser tools",
+  "Lifetime bug-fix support",
 ];
 
 export const about = {
   intro:
-    "I am a developer and founder based between Dubai and India. I started my career in pharmaceutical sales, moved into performance marketing and training in the UAE, and today I design, build and ship software under my own brand, Omebly.",
+    "I am a founder-engineer based between Kolkata and Downtown Dubai. I started in pharmaceutical sales, moved into performance marketing and corporate training in the UAE, and today I lead Omebly, a product studio and academy, as Managing Director & Technical Head alongside owner Tania Firdus.",
   paragraphs: [
-    "That path matters: I write code with a commercial brain. I know what a funnel, a budget and a deadline look like from the inside, so the apps, automations and dashboards I build are aimed at business outcomes rather than tickets.",
-    "My current focus is Omebly, where I build and maintain a signed, auto-updating Windows app and browser extension used by real people, with CI, tests and a public open-source codebase.",
+    "I still write the code. Every Omebly product, client platform and academy syllabus goes through my hands, from architecture and UI to release engineering and support. That is why I can credibly take on an AI automation, full-stack or data role: I have shipped all three for real users.",
+    "A decade on the commercial side means I think in funnels, budgets and deadlines. I build software that moves a business metric, and I explain it in plain language to the people who own that metric.",
   ],
   highlights: [
     {
-      title: "Web & App Development",
-      text: "React front-ends, Node.js / Express APIs, PHP + SQL back-ends, and native desktop apps with Tauri and Rust.",
+      title: "Full-Stack & Mobile",
+      text: "MERN web apps, SaaS platforms, APIs, WordPress builds, and Flutter apps for iOS and Android with real-time voice and video.",
     },
     {
       title: "AI Automation",
-      text: "LLM APIs, webhooks and workflow tools wired into lead-capture, reporting and content pipelines that run without humans in the loop.",
+      text: "LLM agents, AI document tools (Chat with PDF, summarisers, OCR), workflow automation and CRM / email pipelines that run unattended.",
     },
     {
-      title: "Data Analysis",
-      text: "Campaign, sales and product data turned into clean datasets, SQL and dashboards that answer the question behind the question.",
+      title: "Data & Analytics",
+      text: "Power BI & DAX, SQL, Python and advanced Excel. GA4 dashboards and reporting that turn campaign and product data into decisions.",
     },
     {
-      title: "Product Ownership",
-      text: "From idea to signed installer: architecture, UX, release engineering, privacy policy, support and iteration.",
+      title: "Design, 3D & Games",
+      text: "Figma design systems, Adobe suite, Blender and 3ds Max animation, Unity and Unreal Engine 5 game development.",
     },
   ],
 };
@@ -66,174 +105,237 @@ export const about = {
 export const skillGroups = [
   {
     id: "web",
-    label: "Web & App",
+    label: "Full-Stack Web",
     icon: "Code2",
-    blurb: "Front-end to desktop: I ship interfaces people enjoy and back-ends that stay up.",
+    blurb: "High-speed business sites, custom e-commerce, scalable MERN apps, APIs and SaaS platforms.",
     skills: [
-      { name: "JavaScript / TypeScript", level: 92 },
-      { name: "React & Vite", level: 88 },
-      { name: "HTML5 & CSS3 / Tailwind", level: 95 },
-      { name: "Node.js & Express", level: 84 },
-      { name: "Tauri & Rust (desktop apps)", level: 72 },
-      { name: "PHP & MySQL / SQL", level: 80 },
-      { name: "REST APIs & Webhooks", level: 88 },
-      { name: "Browser Extensions (MV3)", level: 86 },
-      { name: "Git, GitHub Actions, CI/CD", level: 85 },
+      { name: "JavaScript (ES6+) / TypeScript", level: 95 },
+      { name: "React.js & Vite", level: 92 },
+      { name: "Node.js & Express.js", level: 90 },
+      { name: "MongoDB & SQL", level: 86 },
+      { name: "PHP & WordPress / Elementor Pro", level: 88 },
+      { name: "HTML5 / CSS3 / Tailwind", level: 96 },
+      { name: "REST APIs, Webhooks & Auth", level: 90 },
+      { name: "Rust + Tauri desktop apps", level: 74 },
+      { name: "Git, GitHub Actions, CI/CD", level: 86 },
     ],
-    tags: ["React", "Vite", "Node.js", "Express", "Tauri", "Rust", "PHP", "SQL", "Playwright", "EJS", "Web3 basics"],
+    tags: ["React", "Node.js", "Express", "MongoDB", "MERN", "PHP", "SQL", "WordPress", "Tauri", "Playwright", "Vite"],
   },
   {
     id: "ai",
-    label: "AI & Automation",
+    label: "Mobile, AI & Automation",
     icon: "Bot",
-    blurb: "I connect models, tools and data so repetitive work disappears and teams move faster.",
+    blurb: "Flutter apps with real-time voice and video, plus AI agents and automations that remove busywork.",
     skills: [
-      { name: "LLM APIs (OpenAI, Claude)", level: 85 },
-      { name: "Prompt & Workflow Design", level: 88 },
-      { name: "n8n / Make / Zapier", level: 82 },
-      { name: "AI Chatbots & Assistants", level: 80 },
-      { name: "API Integration & Webhooks", level: 90 },
-      { name: "Python scripting", level: 70 },
-      { name: "CRM & Email Automation", level: 86 },
-      { name: "Scraping & Data Extraction", level: 84 },
+      { name: "Flutter & Dart", level: 92 },
+      { name: "Real-time voice / video (WebRTC)", level: 86 },
+      { name: "LLM APIs & AI Agents (OpenAI, Claude)", level: 88 },
+      { name: "AI document tools (PDF chat, OCR, summarise)", level: 90 },
+      { name: "Workflow automation (n8n / Make / Zapier)", level: 84 },
+      { name: "Python scripting & scraping", level: 80 },
+      { name: "End-to-end encryption & security", level: 78 },
+      { name: "CRM & email automation", level: 86 },
     ],
-    tags: ["OpenAI API", "Claude API", "n8n", "Make", "Zapier", "LangChain basics", "Python", "Webhooks", "HubSpot", "Mailchimp"],
+    tags: ["Flutter", "Dart", "OpenAI API", "Claude API", "AI Agents", "n8n", "Python", "E2E Encryption", "GitHub Copilot", "Firebase"],
   },
   {
     id: "data",
     label: "Data & Analytics",
     icon: "BarChart3",
-    blurb: "Numbers only matter when they change a decision. I build the reporting that does.",
+    blurb: "Numbers only matter when they change a decision. I build the dashboards and models that do.",
     skills: [
-      { name: "SQL", level: 85 },
-      { name: "Excel / Google Sheets (advanced)", level: 92 },
-      { name: "Google Analytics 4 & Tag Manager", level: 90 },
-      { name: "Looker Studio / Power BI", level: 82 },
-      { name: "Python (pandas)", level: 68 },
-      { name: "A/B Testing & Experimentation", level: 80 },
-      { name: "KPI, Funnel & Cohort Analysis", level: 88 },
+      { name: "Power BI & DAX", level: 92 },
+      { name: "SQL", level: 88 },
+      { name: "Advanced Excel / Google Sheets", level: 95 },
+      { name: "Python (pandas, data cleaning)", level: 80 },
+      { name: "Google Analytics 4 & Tag Manager", level: 92 },
+      { name: "KPI, funnel & cohort analysis", level: 90 },
+      { name: "A/B testing & CRO", level: 86 },
     ],
-    tags: ["SQL", "GA4", "GTM", "Looker Studio", "Power BI", "pandas", "Excel", "Google Sheets", "Dashboards"],
+    tags: ["Power BI", "DAX", "SQL", "Excel", "Python", "GA4", "GTM", "Looker Studio", "CRO"],
   },
   {
-    id: "growth",
-    label: "Growth & Design",
+    id: "creative",
+    label: "Design, 3D & Games",
     icon: "Sparkles",
-    blurb: "A decade in marketing and design means I can own the whole product surface, not just the code.",
+    blurb: "Design systems, motion, CGI and games: the whole visual surface of a product, not just the code.",
     skills: [
-      { name: "SEO (technical, on & off-page)", level: 92 },
-      { name: "Google / Meta / LinkedIn / TikTok Ads", level: 90 },
-      { name: "UI / UX Design (Figma, Adobe XD)", level: 85 },
-      { name: "Adobe Creative Suite", level: 80 },
-      { name: "Content & Copywriting", level: 86 },
-      { name: "Training & Public Speaking", level: 84 },
+      { name: "Figma design systems & prototypes", level: 94 },
+      { name: "Photoshop, Illustrator, InDesign", level: 90 },
+      { name: "Premiere Pro, After Effects, DaVinci", level: 88 },
+      { name: "Blender 3D & 3ds Max", level: 82 },
+      { name: "Unreal Engine 5 & Unity", level: 80 },
+      { name: "AutoCAD & Revit", level: 72 },
+      { name: "Brand strategy & identity", level: 88 },
     ],
-    tags: ["SEO", "Google Ads", "Meta Ads", "Figma", "Adobe XD", "Photoshop", "Illustrator", "Premiere Pro", "After Effects"],
+    tags: ["Figma", "Adobe CC", "DaVinci Resolve", "Blender", "3ds Max", "Unreal Engine 5", "Unity", "WebGL", "AutoCAD", "Revit"],
   },
+];
+
+export const ecosystem = [
+  {
+    badge: "Live social product",
+    name: "Omebly Voice-Party App",
+    text: "Flagship real-time voice and video social app with interactive voice rooms, live PK battles, games, gifts and leaderboards, localised in 13 languages for India and the Gulf. Architected and engineered by me.",
+    chips: ["Flutter", "Real-time voice / video", "Live games & PK", "13 languages"],
+    link: { href: "https://omebly.com/", label: "Explore the Omebly App" },
+    accent: "cyan",
+  },
+  {
+    badge: "60+ privacy-first web tools",
+    name: "Omebly In-Browser Tools Suite",
+    text: "A zero-upload, client-side utility suite that keeps 100% of files on the user's device: 54 PDF & AI tools (Chat with PDF, AI summariser, OCR), 4 image tools (4K upscaler, background remover) and multi-track video timeline tools.",
+    chips: ["AI PDF summariser", "4K photo enhancer", "Multi-track video", "Zero server upload"],
+    link: { href: "https://omebly.com/", label: "Launch the free tools" },
+    accent: "purple",
+  },
+  {
+    badge: "16 live mentor-led tracks",
+    name: "Omebly Training Academy",
+    text: "Live online cohorts with weekly 1-on-1 code and design reviews across Data Analysis, Advanced Power BI & DAX, Python, Full-Stack Web, Flutter, Unity Game Dev, UI/UX in Figma and 2D/3D Blender animation.",
+    chips: ["Power BI & SQL", "Full-stack & Flutter", "AI app workshops", "Dubai & global cohorts"],
+    link: { href: "https://omebly.com/", label: "View all 16 syllabi" },
+    accent: "cyan",
+  },
+];
+
+export const pillars = [
+  { n: "01", tag: "∞ Lifetime support", title: "Web & SaaS Development", text: "High-speed business websites, custom e-commerce, scalable MERN web apps, APIs and SaaS platforms.", accent: "cyan" },
+  { n: "02", tag: "∞ Lifetime support", title: "App Development", text: "Cross-platform Flutter, iOS and Android apps with clean mobile UX, scalable back-ends and store launch.", accent: "cyan" },
+  { n: "03", tag: "Design systems", title: "UI/UX Product Design", text: "Interactive Figma prototypes, SaaS dashboards, comprehensive design systems and UX conversion audits.", accent: "purple" },
+  { n: "04", tag: "2D & 3D CGI", title: "Animation Design", text: "3D product animation, CGI environments, explainer videos, Lottie UI motion, Blender and After Effects renders.", accent: "purple" },
+  { n: "05", tag: "Cinematic post", title: "Video Editing", text: "High-retention Reels, Shorts and YouTube production, colour grading and sound design in Premiere Pro and DaVinci.", accent: "cyan" },
+  { n: "06", tag: "ROI & analytics", title: "Digital Marketing", text: "Technical SEO, Google and Meta ad funnels, conversion-rate optimisation, email automation and GA4 dashboards.", accent: "cyan" },
+  { n: "07", tag: "∞ Lifetime support", title: "Game Development", text: "2D and 3D mobile, PC and WebGL games built in Unity and Unreal Engine 5 with custom physics, art and multiplayer.", accent: "green" },
+  { n: "08", tag: "Identity & voice", title: "Brand Building", text: "Brand strategy, logo suites, visual guidelines, rebranding and investor pitch kits for global startups.", accent: "purple" },
 ];
 
 export const experience = [
   {
-    role: "Founder & Lead Developer",
+    role: "Managing Director & Technical Head",
     company: "Omebly",
     url: "https://omebly.com/",
-    location: "Dubai, UAE · Remote",
-    period: "2025 – Present",
+    location: "Kolkata & Downtown Dubai",
+    period: "Present",
     current: true,
     summary:
-      "Omebly is my software brand. Its first product, Omebly Downloader, is a free, open-source Windows app plus browser extension that finds every video, audio file, image and document on a page and downloads what you tick at full speed.",
+      "Co-lead Omebly with owner Tania Firdus: a product studio, free-tools platform and live academy serving clients across India, the UAE, Kuwait, Qatar, Saudi Arabia, the UK and the US.",
     bullets: [
-      "Architected and built the full stack: a Rust + Tauri 2 desktop app, a Manifest V3 browser extension (Chrome, Edge, Brave) and a native-messaging bridge between them.",
-      "Implemented media detection for HLS / DASH streams, players, playlists and copy-protected (DRM) content, with yt-dlp and FFmpeg bundled and hash-pinned for reproducible builds.",
-      "Set up GitHub Actions release builds, SignPath code signing, signed one-click updates via a custom update endpoint, and end-to-end Playwright tests against a local test site.",
-      "Own the product beyond code: website, privacy policy, licence agreement, support and release notes. No ads, no tracking, no analytics.",
+      "Architected and shipped the Omebly Voice-Party App (Flutter, real-time voice and video, live games, 13 languages).",
+      "Built the 60+ tool in-browser suite: 54 PDF & AI tools, image upscaling and background removal, and video timeline tools, all client-side with zero uploads.",
+      "Built Omebly Downloader: a Rust + Tauri desktop app and MV3 extension with signed releases, CI and Playwright tests (open source, GPL-3.0).",
+      "Lead mentor for 16 live academy tracks: Power BI & DAX, Python, full-stack, Flutter, Unity, UI/UX and Blender.",
+      "Own delivery for client web, SaaS and mobile projects with full code ownership, weekly live demos and lifetime bug-fix support.",
     ],
-    tech: ["Rust", "Tauri 2", "JavaScript", "MV3 Extension", "GitHub Actions", "Playwright", "SignPath", "yt-dlp", "FFmpeg"],
+    tech: ["MERN", "Flutter", "AI / LLM", "Rust + Tauri", "Power BI", "Figma", "Unreal / Unity"],
+  },
+  {
+    role: "Founder",
+    company: "KiniCode · Zenkart",
+    location: "India · UAE",
+    period: "Ongoing",
+    summary:
+      "KiniCode (kinicode.com) delivers custom SaaS, web and mobile engineering alongside Omebly. Zenkart is my digital software brand, through which I scaled e-commerce architectures such as Essenzi and Tripurakart.",
+    bullets: [
+      "Custom SaaS, web and mobile builds for clients in India, the Gulf, the UK and the US.",
+      "E-commerce platforms, storefront performance and growth tooling for retail brands.",
+      "Authored the handbook “From Zero to Digital Hero”.",
+    ],
+    tech: ["SaaS", "E-commerce", "Web & Mobile", "Growth"],
   },
   {
     role: "Digital Marketing Manager",
     company: "Essenzi Perfumes",
     location: "Dubai, UAE",
     period: "2024 – 2025",
-    summary: "Led the digital channel for a retail perfume brand: paid, SEO, email and the e-commerce storefront.",
+    summary: "Owned the digital channel and e-commerce architecture for a retail perfume brand.",
     bullets: [
-      "Owned budgets and performance across Google, Meta and TikTok ads, SEO and email.",
-      "Built reporting that combined ad-platform, analytics and sales data into one weekly view of spend, ROAS and funnel drop-off.",
-      "Automated repetitive operations (lead routing, campaign reports, content scheduling) with scripts and workflow tools.",
+      "Paid search and social, SEO, email and storefront performance with weekly spend / ROAS / funnel reporting.",
+      "Automated reporting, lead routing and content scheduling with scripts and workflow tools.",
     ],
-    tech: ["Google Ads", "Meta Ads", "GA4", "Looker Studio", "Shopify", "Automation"],
+    tech: ["E-commerce", "Google & Meta Ads", "GA4", "Automation"],
   },
   {
-    role: "Digital Marketing Trainer",
-    company: "Spoton Training Institute",
+    role: "Corporate Trainer: Power BI, Python, Generative AI & Design",
+    company: "Edoxi · SpotOn Training Institute",
     location: "Dubai, UAE",
     period: "2023 – 2024",
-    summary: "Designed and delivered hands-on digital marketing and analytics training for professionals and career-changers.",
+    summary: "Trained corporate professionals in Dubai in data analytics, Python, generative AI and design.",
     bullets: [
-      "Built a curriculum covering SEO, Google Ads, social advertising, analytics and landing-page development.",
-      "Coached learners through live campaign projects and data-driven optimisation exercises.",
-      "Introduced Google Analytics and Looker Studio reporting modules with practice datasets.",
+      "Designed and delivered hands-on curricula in Power BI & DAX, Python, generative AI and digital marketing analytics.",
+      "Coached learners through live projects with weekly reviews; this programme became the model for Omebly Academy.",
     ],
-    tech: ["Curriculum Design", "GA4", "Looker Studio", "Google Ads", "SEO"],
+    tech: ["Power BI", "Python", "Generative AI", "Curriculum design"],
   },
   {
     role: "Digital Marketing Executive",
-    company: "Etisalat Telecom (HACB)",
+    company: "Etisalat Business (HACB)",
     location: "Dubai, UAE",
     period: "2022 – 2023",
-    summary: "Ran digital acquisition campaigns for telecom products under a major UAE brand.",
+    summary: "B2B digital campaigns for Etisalat Business projects in Dubai.",
     bullets: [
-      "Worked within strict brand, compliance and budget guidelines.",
-      "Analysed campaign and lead-quality data to move budget toward the best audiences and creatives.",
-      "Closed the loop with sales teams between online leads and conversions.",
+      "Delivered multiple medal-winning B2B digital campaigns within strict brand, compliance and budget rules.",
+      "Used campaign and lead-quality data to shift budget toward the best audiences and creatives.",
     ],
-    tech: ["Paid Media", "Lead Generation", "Analytics", "CRM"],
+    tech: ["B2B campaigns", "Lead generation", "Analytics"],
   },
   {
-    role: "Digital Marketing Executive",
-    company: "WGCB",
+    role: "Web & Digital Systems for UAE Enterprises",
+    company: "Dubai Shipping LLC · Emirates Packaging Group LLC · Golden Colour General Trading LLC",
     location: "Dubai, UAE",
-    period: "2021 – 2022",
-    summary: "Managed SEO, social and paid campaigns, and built landing pages and site content.",
+    period: "2021 – 2023",
+    summary: "Architected web platforms and digital brand presence for UAE corporates, including the WGCB engagement.",
     bullets: [
-      "Set up tracking (tags, events, conversions) so every campaign was measurable end to end.",
+      "Corporate websites, tracking setup (tags, events, conversions) and SEO foundations.",
+      "Brand and content systems that the companies still run on.",
     ],
-    tech: ["SEO", "Social Media", "Landing Pages", "GTM"],
+    tech: ["Web platforms", "SEO", "Brand", "GTM"],
   },
   {
-    role: "Senior Marketing Executive",
-    company: "Indiabulls Pharma",
+    role: "Marketing Executive → Senior Marketing Executive",
+    company: "Shreya Lifescience · Raptakos, Brett & Co. · Ajanta Pharma · Indiabulls Pharma",
     location: "India",
-    period: "2017 – 2019",
-    summary: "Territory sales and marketing for a pharmaceutical portfolio.",
+    period: "2014 – 2019",
+    summary: "Five years of pharmaceutical field marketing and territory sales.",
     bullets: [
-      "Managed relationships with doctors, distributors and retail partners and tracked performance against targets.",
+      "Managed doctor, distributor and retail relationships and tracked performance against targets.",
+      "Built the communication and reporting discipline I still use with clients and teams.",
     ],
-    tech: ["Sales", "Territory Planning", "Reporting"],
+    tech: ["Sales", "Territory planning", "Reporting"],
+  },
+];
+
+export const ventures = [
+  {
+    badge: "Global studio & rebrand",
+    name: "Omebly & KiniCode",
+    text: "Co-leading Omebly (omebly.com) with owner Tania Firdus alongside KiniCode (kinicode.com), delivering custom SaaS, web and mobile engineering across India, the UAE, Kuwait, Qatar, Saudi Arabia, the UK and the US.",
+    accent: "cyan",
   },
   {
-    role: "Junior Marketing Executive",
-    company: "Shreya Lifescience · Raptakos, Brett & Co. · Ajanta Pharma",
-    location: "India",
-    period: "2014 – 2017",
-    summary: "Field marketing and sales across three pharmaceutical companies.",
-    bullets: [
-      "Built the communication, negotiation and reporting habits that still shape how I work with clients and stakeholders.",
-    ],
-    tech: ["Field Marketing", "Communication"],
+    badge: "Dubai & UAE enterprise",
+    name: "UAE Corporate Digital Systems",
+    text: "Architected web platforms and digital brand presence for Dubai Shipping LLC, Emirates Packaging Group LLC and Golden Colour General Trading LLC, plus medal-winning B2B digital campaigns for Etisalat Business projects in Dubai.",
+    accent: "purple",
+  },
+  {
+    badge: "E-commerce & corporate training",
+    name: "Zenkart, Essenzi & Edoxi Dubai",
+    text: "Founded the digital software brand Zenkart, scaled e-commerce architectures such as Essenzi and Tripurakart, authored “From Zero to Digital Hero”, and trained corporate professionals in Dubai (Edoxi / SpotOn) in Power BI, Python, generative AI and design.",
+    accent: "green",
   },
 ];
 
 export const featuredProject = {
   name: "Omebly Downloader",
   tagline: "See everything on a page. Tick what you want. Download at full speed.",
-  icon: `${import.meta.env.BASE_URL}omebly-icon.png`,
+  icon: `${BASE}omebly-icon.png`,
   url: "https://omebly.com/tools/downloader/",
   repo: "https://github.com/hussain5049/omebly-downloader",
   version: "v0.3.3",
   licence: "GPL-3.0-or-later",
   description:
-    "A free, open-source Windows download manager with a companion browser extension. The extension scans every frame of a page for videos, audio, images, files, streams and playlists; the desktop app downloads them in parallel, merges streams with FFmpeg and keeps everything on the user's machine.",
+    "Free, open-source Windows download manager with a companion browser extension. The extension scans every frame of a page for videos, audio, images, files, streams and playlists; the desktop app downloads them in parallel, merges streams with FFmpeg and keeps everything on the user's machine.",
   features: [
     { title: "Native desktop app", text: "Rust + Tauri 2, single-instance, signed NSIS installer, one-click signed updates." },
     { title: "MV3 browser extension", text: "Chrome, Edge and Brave. Scans frames, players, HLS / DASH streams and playlists." },
@@ -245,33 +347,27 @@ export const featuredProject = {
   stack: ["Rust", "Tauri 2", "JavaScript", "Chrome Extension (MV3)", "Native Messaging", "yt-dlp", "FFmpeg", "GitHub Actions", "Playwright", "SignPath"],
 };
 
-export const projects = [
+export const repos = [
   {
-    name: "Omebly.com",
-    description:
-      "The home of the Omebly brand: product pages, downloads, documentation, update API and contact. Designed, built and maintained by me.",
-    url: "https://omebly.com/",
-    tags: ["Web", "Product Site", "API", "SEO"],
+    badge: "E2E encrypted messaging",
+    name: "secure-chat",
+    text: "Privacy-first encrypted communication platform with end-to-end encryption and automatic 24-hour ephemeral message deletion. Private build; source on request.",
+    url: "https://github.com/hussain5049",
+    tags: ["E2E encryption", "Real-time", "Privacy"],
   },
   {
-    name: "Wand Enhancer (contribution)",
-    description:
-      "Fork of an open-source C# extension that adds UX and interoperability features to a desktop app. Used to study and contribute to a .NET codebase.",
+    badge: "Creative AI & workflow",
+    name: "Wand-Enhancer",
+    text: "Fork of an open-source C# extension adding UX and interoperability features to a desktop app; used to study and contribute to a .NET codebase.",
     url: "https://github.com/hussain5049/Wand-Enhancer",
-    tags: ["C#", ".NET", "Open Source"],
+    tags: ["C#", ".NET", "Open source"],
   },
   {
-    name: "Marketing automation & reporting stack",
-    description:
-      "Internal tooling built across my marketing roles: automated weekly performance reports, lead routing into CRMs and dashboard templates in Looker Studio.",
-    tags: ["Automation", "GA4", "Looker Studio", "Sheets", "Apps Script"],
-  },
-  {
-    name: "This interactive resume",
-    description:
-      "React 19 + Vite + Tailwind + Framer Motion, deployed to GitHub Pages by GitHub Actions, with a print layout that produces the PDF version.",
+    badge: "This site",
+    name: "practice-personal-resume",
+    text: "This interactive resume: React 19, Vite, Tailwind v4 and Framer Motion with a canvas particle network, deployed to GitHub Pages by GitHub Actions.",
     url: "https://github.com/hussain5049/practice-personal-resume",
-    tags: ["React", "Vite", "Tailwind", "Framer Motion", "GitHub Pages"],
+    tags: ["React", "Vite", "Tailwind", "Framer Motion"],
   },
 ];
 
@@ -282,14 +378,14 @@ export const education = [
     text: "Programming, databases, data structures and software engineering fundamentals.",
   },
   {
-    title: "Self-directed engineering",
-    org: "Ongoing",
-    text: "Rust and Tauri for desktop apps, modern React, release engineering and security practices, learned by shipping Omebly.",
+    title: "Lead Mentor, Omebly Academy",
+    org: "16 live tracks",
+    text: "Teaching Power BI & DAX, Python, full-stack web, Flutter, Unity, UI/UX and Blender to cohorts in Dubai and worldwide.",
   },
   {
-    title: "AI & data practice",
-    org: "Ongoing",
-    text: "LLM APIs and agent workflows, automation platforms, SQL and analytics applied to real marketing and product data.",
+    title: "Author, “From Zero to Digital Hero”",
+    org: "Handbook",
+    text: "A practical guide to building a digital presence and business from nothing, drawn from a decade of client work.",
   },
 ];
 
@@ -297,9 +393,9 @@ export const languages = ["English", "Hindi", "Bengali"];
 
 export const navLinks = [
   { id: "about", label: "About" },
+  { id: "ecosystem", label: "Omebly" },
   { id: "skills", label: "Skills" },
   { id: "experience", label: "Experience" },
-  { id: "projects", label: "Projects" },
-  { id: "education", label: "Education" },
+  { id: "projects", label: "Work" },
   { id: "contact", label: "Contact" },
 ];

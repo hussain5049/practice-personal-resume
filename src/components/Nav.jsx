@@ -44,9 +44,9 @@ export default function Nav() {
             scrolled ? "glass shadow-[0_10px_40px_-20px_rgba(0,0,0,0.8)]" : ""
           }`}
         >
-          <a href="#top" className="font-display text-xl font-bold tracking-tight text-white">
-            {profile.firstName}
-            <span className="text-mint">.</span>
+          <a href="#top" className="flex items-center gap-2 font-display text-lg font-bold tracking-[0.08em] text-white">
+            <span className="h-2.5 w-2.5 rounded-full bg-mint shadow-[0_0_12px_#00f3ff]" />
+            NAZMUL<span className="text-mint">.OMEBLY</span>
           </a>
 
           <ul className="hidden items-center gap-1 md:flex">
@@ -72,6 +72,9 @@ export default function Nav() {
           </ul>
 
           <div className="hidden items-center gap-2 md:flex">
+            <a href={profile.website} target="_blank" rel="noopener noreferrer" className="btn btn-ghost !px-4 !py-2 text-xs">
+              Omebly.com ↗
+            </a>
             <a href={profile.resumePdf} download className="btn btn-primary !px-4 !py-2 text-xs">
               <Download size={14} /> Resume PDF
             </a>
