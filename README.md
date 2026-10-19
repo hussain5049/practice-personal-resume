@@ -1,126 +1,118 @@
 <div align="center">
 
-<img src="./images/profile.png" alt="Nazmul Hussain" width="140" style="border-radius:50%">
+<img src="./public/profile.png" alt="Nazmul Hussain" width="130" style="border-radius:50%">
 
 # Nazmul Hussain
 
-**Full-Stack Developer · AI Automation · Data Analyst**
+**Full-Stack Developer · AI Automation Engineer · Data Analyst · Founder of [Omebly](https://omebly.com/)**
 
-India & UAE · Open to full-time, contract and remote roles
+Dubai, UAE · India · Open to full-time, contract and remote roles
 
-[![Website](https://img.shields.io/badge/Website-makemybusinesslive.com-0e7490?style=flat-square&logo=googlechrome&logoColor=white)](https://makemybusinesslive.com/)
-[![Email](https://img.shields.io/badge/Email-info%40makemybusinesslive.com-0e7490?style=flat-square&logo=gmail&logoColor=white)](mailto:info@makemybusinesslive.com)
+[![Live Resume](https://img.shields.io/badge/Live%20Resume-hussain5049.github.io-2ef2b5?style=for-the-badge&logo=githubpages&logoColor=black)](https://hussain5049.github.io/practice-personal-resume/)
+[![PDF](https://img.shields.io/badge/Resume-PDF-ef4444?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./public/Nazmul_Hussain_Resume.pdf)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nazmul%20Hussain-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nazmul-hussain-16a55b243/)
 [![GitHub](https://img.shields.io/badge/GitHub-hussain5049-181717?style=flat-square&logo=github)](https://github.com/hussain5049)
-[![PDF](https://img.shields.io/badge/Resume-PDF-ef4444?style=flat-square&logo=adobeacrobatreader&logoColor=white)](./Nazmul_Hussain_Resume.pdf)
-[![Live Resume](https://img.shields.io/badge/Live%20Resume-GitHub%20Pages-22d3ee?style=flat-square&logo=githubpages&logoColor=black)](https://hussain5049.github.io/practice-personal-resume/)
+[![Omebly](https://img.shields.io/badge/Omebly-omebly.com-2ef2b5?style=flat-square&logo=googlechrome&logoColor=black)](https://omebly.com/)
+[![Email](https://img.shields.io/badge/Email-info%40makemybusinesslive.com-0e7490?style=flat-square&logo=gmail&logoColor=white)](mailto:info@makemybusinesslive.com)
 
 </div>
 
 ---
 
-## Summary
+## About
 
-Full-stack developer and AI automation builder with a background in digital marketing and UI/UX design. I started in pharmaceutical sales, moved into performance marketing in Dubai, and now design and build the web applications, automations and dashboards that growing businesses run on. Founder of [Make My Business Live (MMBL)](https://makemybusinesslive.com/), a web and digital-growth studio.
+I build products end to end: fast web and desktop apps, AI-powered automations that remove busywork, and data pipelines and dashboards that tell teams what to do next.
 
-- **Web & App Development** – responsive, accessible front-ends in HTML, CSS, JavaScript and React; REST APIs and server-side apps with Node.js, Express, EJS, PHP and SQL.
-- **AI Automation** – wiring LLM APIs, webhooks and no-code / low-code tools into lead-capture, reporting and content pipelines so teams stop doing repetitive work by hand.
-- **Data Analysis** – campaign, sales and web analytics turned into clean datasets, SQL queries and dashboards that explain what happened and what to do next.
-- **Business context** – years on the commercial side mean I understand funnels, budgets, stakeholders and deadlines, and communicate clearly with non-technical teams.
+I started in pharmaceutical sales, moved into performance marketing and training in the UAE, and today I design, build and ship software under my own brand, **Omebly**. That path means I write code with a commercial brain: I know what a funnel, a budget and a deadline look like from the inside.
+
+## Featured: Omebly Downloader
+
+<img src="./public/omebly-icon.png" alt="Omebly Downloader" width="56" align="left" style="margin-right:12px">
+
+**See every video, audio file, image and file on a page, tick what you want, and download it at full speed.**
+Free and open source (GPL-3.0-or-later). [Product page](https://omebly.com/tools/downloader/) · [Source](https://github.com/hussain5049/omebly-downloader)
+
+<br clear="left">
+
+- **Native desktop app** in Rust + Tauri 2 with a signed NSIS installer and signed one-click updates.
+- **Manifest V3 browser extension** for Chrome, Edge and Brave that scans frames, players, HLS / DASH streams and playlists.
+- **Release engineering:** GitHub Actions builds, hash-pinned yt-dlp and FFmpeg, SignPath code signing, Playwright end-to-end tests.
+- **Privacy by design:** no ads, tracking or analytics. DRM-protected media is detected and never downloaded.
 
 ## Skills
 
-| Area | Tools & technologies |
+| Track | Core |
 | --- | --- |
-| **Web & App Development** | HTML5, CSS3, JavaScript (ES6+), React, Node.js, Express, EJS, PHP, SQL / MySQL, REST APIs, Responsive Design, Git & GitHub, Web3 basics |
-| **AI & Automation** | LLM APIs (OpenAI, Claude), Prompt Engineering, Workflow Automation (n8n / Make / Zapier), Webhooks & API Integration, Chatbots & AI Assistants, CRM & Email Automation, Scripting (JavaScript, Python) |
-| **Data & Analytics** | SQL, Excel / Google Sheets (advanced), Google Analytics 4, Looker Studio, Power BI, Python (pandas), Dashboards & Reporting, A/B Testing, KPI & Funnel Analysis |
-| **Digital Marketing** | SEO (On-page, Off-page, Technical), Google Ads & Bing Ads, Meta / LinkedIn / TikTok Ads, Email Marketing (Mailchimp, HubSpot, SendGrid), Content & Copywriting, Influencer & Affiliate |
-| **UI / UX Design** | Figma, Adobe XD, Illustrator, Photoshop, Premiere Pro, After Effects, UX Research, Design Systems |
-| **Professional** | Project & Task Management, Stakeholder Communication, Training & Mentoring, Process Improvement, Team Leadership |
+| **Web & App** | JavaScript / TypeScript, React, Vite, Tailwind, Node.js, Express, Tauri + Rust, PHP, SQL / MySQL, REST APIs, MV3 browser extensions, Git, GitHub Actions, Playwright |
+| **AI & Automation** | LLM APIs (OpenAI, Claude), prompt and workflow design, n8n / Make / Zapier, chatbots and assistants, API integration and webhooks, Python scripting, CRM and email automation, scraping |
+| **Data & Analytics** | SQL, advanced Excel / Google Sheets, GA4 and Tag Manager, Looker Studio, Power BI, Python (pandas), A/B testing, KPI / funnel / cohort analysis |
+| **Growth & Design** | SEO, Google / Meta / LinkedIn / TikTok Ads, UI / UX (Figma, Adobe XD), Adobe Creative Suite, content and copywriting, training |
 
 ## Experience
 
-### Digital Marketing Manager — Essenzi Perfumes
-*Dubai, UAE · 2024 – 2025*
-- Owned the full digital channel for a retail perfume brand: paid search and social, SEO, email and the e-commerce storefront.
-- Built reporting dashboards combining ad-platform, analytics and sales data to track spend, ROAS and funnel drop-off week over week.
-- Automated repetitive marketing operations (lead routing, campaign reports, content scheduling) with scripts and workflow tools.
+| Period | Role | Company | Location |
+| --- | --- | --- | --- |
+| 2025 – Present | **Founder & Lead Developer** | [Omebly](https://omebly.com/) | Dubai · Remote |
+| 2024 – 2025 | Digital Marketing Manager | Essenzi Perfumes | Dubai, UAE |
+| 2023 – 2024 | Digital Marketing Trainer | Spoton Training Institute | Dubai, UAE |
+| 2022 – 2023 | Digital Marketing Executive | Etisalat Telecom (HACB) | Dubai, UAE |
+| 2021 – 2022 | Digital Marketing Executive | WGCB | Dubai, UAE |
+| 2017 – 2019 | Senior Marketing Executive | Indiabulls Pharma | India |
+| 2014 – 2017 | Junior Marketing Executive | Shreya Lifescience · Raptakos, Brett & Co. · Ajanta Pharma | India |
 
-### Digital Marketing Trainer — Spoton Training Institute
-*Dubai, UAE · 2023 – 2024*
-- Designed and delivered a hands-on digital marketing curriculum covering SEO, Google Ads, social media advertising, analytics and landing-page development.
-- Coached working professionals and career-changers through live campaign projects and data-driven optimisation exercises.
-- Produced course material, slide decks and practice datasets; introduced Google Analytics and Looker Studio reporting modules.
-
-### Digital Marketing Executive — Etisalat Telecom (HACB)
-*Dubai, UAE · 2022 – 2023*
-- Ran digital acquisition campaigns for telecom products under a major UAE brand, within strict brand, compliance and budget guidelines.
-- Analysed campaign and lead-quality data to shift budget toward the best-performing audiences and creatives.
-- Coordinated with sales teams to close the loop between online leads and conversions.
-
-### Digital Marketing Executive — WGCB
-*Dubai, UAE · 2021 – 2022*
-- Managed SEO, social media and paid campaigns; built and maintained landing pages and website content.
-- Set up tracking (tags, events, conversions) so every campaign could be measured end to end.
-
-### Senior Marketing Executive — Indiabulls Pharma
-*India · 2017 – 2019*
-- Led territory sales and marketing for a pharmaceutical portfolio; managed relationships with doctors, distributors and retail partners.
-- Tracked sales performance against targets and used the numbers to plan territory coverage and promotional activity.
-
-### Junior Marketing Executive — Shreya Lifescience · Raptakos, Brett & Co. Ltd · Ajanta Pharma
-*India · 2014 – 2017*
-- Progressed through three pharmaceutical companies in field marketing and sales, building the communication, negotiation and reporting habits I still use today.
-
-## Projects
-
-| Project | What it is | Stack |
-| --- | --- | --- |
-| [Omebly Downloader](https://github.com/hussain5049/omebly-downloader) | Free, open-source Windows download manager with a browser extension for selecting and downloading page media at full speed (GPL-3.0). | JavaScript, Browser Extension, Desktop |
-| [Make My Business Live](https://makemybusinesslive.com/) | Founder-led web and digital-growth studio: business websites, analytics and marketing automation, performance campaigns for SMBs in India and the UAE. | Web Dev, Automation, SEO / Ads |
-| [Wand Enhancer](https://github.com/hussain5049/Wand-Enhancer) | Fork of an open-source extension adding UX and interoperability features to a desktop app; used to study and contribute to a C# codebase. | C# |
-| [This resume site](https://hussain5049.github.io/practice-personal-resume/) | Hand-built, dependency-free resume with dark / light themes, print-to-PDF styling and schema.org structured data. | HTML, CSS, JavaScript |
+Full descriptions are on the [live resume](https://hussain5049.github.io/practice-personal-resume/) and in the [PDF](./public/Nazmul_Hussain_Resume.pdf).
 
 ## Education
 
-- **Bachelor of Computer Applications (BCA)** — 2014
-- **Continuous learning** — full-stack JavaScript (React, Node.js, Express, SQL), AI automation and LLM tooling, data analytics through hands-on and open-source projects.
+- **Bachelor of Computer Applications (BCA)**, 2014
+- Ongoing self-directed work in Rust / Tauri, modern React, release engineering, LLM tooling and analytics.
 
 ## Contact
 
 | | |
 | --- | --- |
-| 📧 Email | [info@makemybusinesslive.com](mailto:info@makemybusinesslive.com) |
-| 📱 Phone / WhatsApp | [+91 84150 44306](tel:+918415044306) |
-| 🌐 Website | [makemybusinesslive.com](https://makemybusinesslive.com/) |
-| 💼 LinkedIn | [linkedin.com/in/nazmul-hussain-16a55b243](https://www.linkedin.com/in/nazmul-hussain-16a55b243/) |
-| 💻 GitHub | [github.com/hussain5049](https://github.com/hussain5049) |
-| 📍 Location | India & UAE · open to relocation and remote |
+| Email | [info@makemybusinesslive.com](mailto:info@makemybusinesslive.com) |
+| Phone / WhatsApp | [+91 84150 44306](tel:+918415044306) |
+| LinkedIn | [linkedin.com/in/nazmul-hussain-16a55b243](https://www.linkedin.com/in/nazmul-hussain-16a55b243/) |
+| GitHub | [github.com/hussain5049](https://github.com/hussain5049) |
+| Website | [omebly.com](https://omebly.com/) |
 
 ---
 
 <details>
-<summary><strong>About this repository</strong></summary>
+<summary><strong>About this repository (how the site is built)</strong></summary>
 
-This repo is the source of my online resume.
+An interactive resume built with **React 19, Vite, Tailwind CSS v4 and Framer Motion**, deployed to **GitHub Pages** by GitHub Actions.
 
 ```
 .
-├── index.html            # the resume (single page)
-├── Public/hire_me.html   # contact page
-├── assets/css/style.css  # styles: dark / light theme + print layout
-├── assets/js/main.js     # theme toggle, mobile nav, print, LinkedIn link
-└── images/               # profile photo
+├── index.html                 # shell + SEO / schema.org metadata
+├── public/
+│   ├── profile.png            # photo
+│   ├── omebly-icon.png        # Omebly logo
+│   └── Nazmul_Hussain_Resume.pdf
+├── src/
+│   ├── data/resume.js         # ALL resume content lives here
+│   ├── components/            # Hero, About, Skills, Experience, Projects, Education, Contact, PrintResume…
+│   ├── hooks/useReveal.js     # scroll-reveal presets
+│   └── index.css              # theme tokens + print rules
+└── .github/workflows/deploy.yml
 ```
 
-**Run locally:** open `index.html` in a browser, or serve the folder with `npx serve .`.
+**Edit content:** change `src/data/resume.js`. Nothing else needs touching.
 
-**Download as PDF:** grab [Nazmul_Hussain_Resume.pdf](./Nazmul_Hussain_Resume.pdf), or click *Download PDF* on the page (browser print dialog with a print-optimised layout).
+**Run locally**
 
-**Publish:** GitHub → *Settings* → *Pages* → Source: *Deploy from a branch* → Branch: `main` / `/ (root)`.
-The site then lives at `https://hussain5049.github.io/practice-personal-resume/`.
+```bash
+npm install
+npm run dev        # http://localhost:5173/practice-personal-resume/
+npm run build      # production build in dist/
+```
 
-**Add LinkedIn:** set `LINKEDIN_URL` at the top of `assets/js/main.js`.
+**Publish:** repository *Settings → Pages → Source: GitHub Actions*. Every push to `main` deploys to
+`https://hussain5049.github.io/practice-personal-resume/`.
+
+**Regenerate the PDF:** open the live site, press *Ctrl/Cmd + P*, save as PDF (a dedicated print layout is used), and replace `public/Nazmul_Hussain_Resume.pdf`.
 
 </details>
